@@ -13,7 +13,7 @@ Material:
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -26,4 +26,4 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - Color_169B0B02: {r: 102.75575, g: 61.330658, b: 9.145801, a: 0.654902}
+    - Color_169B0B02: {r: 15.813397, g: 9.521155, b: 1.5730605, a: 0.54901963}
