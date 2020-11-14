@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Copia 2
   m_EditorClassIdentifier: 
-  hashCode: -1549952723
+  hashCode: -2079589114
   material: {fileID: 8264097413057074430}
-  materialHashCode: 685879277
+  materialHashCode: -985673498
   m_Version: 1.1.0
   m_SourceFontFileGUID: a990b000860e27649845d2a66f143be5
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: a990b000860e27649845d2a66f143be5,
@@ -1055,7 +1055,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: big_noodle_titling_oblique Atlas Material
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_ShaderKeywords: GLOW_ON
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA GLOW_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0

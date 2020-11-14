@@ -30,13 +30,13 @@ public class CharacterSelect : MonoBehaviour, ISelectHandler, IDeselectHandler//
     public void OnSelect(BaseEventData eventData)
     {
         Debug.Log(this.gameObject.name + " was selected");
-        this.gameObject.transform.localScale = new Vector2(1.2f, 1.2f);
+        this.gameObject.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
         MoveUI.Enable();
     }
     public void OnDeselect(BaseEventData Data)
     {
         Debug.Log("Deselected " + this.gameObject.name);
-        this.gameObject.transform.localScale = new Vector2(1f, 1f);
+        this.gameObject.transform.localScale = new Vector3(1f, 1f, 1.2f);
         MoveUI.Disable();
     }
 }
